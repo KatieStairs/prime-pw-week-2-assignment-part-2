@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We created a variable called "name" and entered Dane as the name.
+//Then we created an if/else statement to decide the console log output with the name as "Mary".
+//When "Dane" ran through the first course of action, the code recognized that Dane does not equal Mary, skipped that action and went to the next one.
+//And, since Dane does not strictly equal Mary we console log "How do you do?".
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//We created a variable called "secret" and then created a variable called "code" and gave it a value of "123". 
+//Then we created an if statement that says if "code" is strictly equal to "123" then "secret" will = "super"
+//and will also multiply the "code" variable by 2.
+//Then we created another if statement that says if "code" is greater than 250 then "secret" will = "duper".
+//Then we console.log(secret) and it will come out "super" because as it passed through the two if statements, that was the outcome. 
+
 
 //CODE
 /*
@@ -70,10 +72,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created 3 variables and gave them each names and an operator, first was iStudent = true, second was age = 34, and last was zip = 55407.
+//Next we created an if/else statement that ran through 4 options. If iStudent is true AND the zip is greater than 80000 we console log "You're a student on the West Coast!",
+//if isStudent was false or the age of the student was less than 30 we console log "What are your hobbies?", if iStudent is true we console log "Welcome to Prime!" and
+//if any other outcome takes place we console log "How about the weather?".
 
 //CODE
 /*
@@ -130,9 +132,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+//FIX colorOne is supposed to be blue and colorTwo is supposed to be red.
+//So, it should be let colorOne = 'blue; let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+//FIX colorOne and colorTwo should now be purple.
+//if (mix === true) {
+//  colorOne && colorTwo = 'purple';
+//}
 
 if (mix === true) {
   colorOne = 'purple';
@@ -147,6 +158,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX it is supposed to be and not or so
+// if (temp > 39 && time >=4) {
+//  console.log('throw away the food!);  
+//}
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +174,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX we are supposed to allow people in who are 21 and above in age, so
+//if(minAge <= age) {
+//  console.log ('enter');
+//} else {
+//  console.log ('no entry');
+//}  
 
 if(minAge <= age) {
   console.log('no entry');
